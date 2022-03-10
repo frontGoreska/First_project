@@ -6,51 +6,57 @@ ul {
     border-bottom: 1px solid #828282;
     width: 943.61px;
     padding-inline-start: 0px;
-    margin-left: 140px;
+    margin-left: 180px;
 }
 
 li {
     margin-bottom: 30px;
 }
 
-h1 {
-    position: absolute;
-    left: 11%;
-    right: 85.72%;
-    top: 10%;
-    bottom: 94.91%;
-
-    font-family: 'Gilroy-Bold';
-    font-size: 47.3392px;
-    line-height: 59px;
-}
-
-.ru_eng {
-    position: absolute;
-    left: 1090px;
-    top: 22%;
-}
-
-.mainPhoto {
-    position: absolute;
-    width: 943.61px;
-    height: 387px;
-    left: 150px;
-    top: 272.94px;
-}
-
 .rightPosition {
     margin-left: 19%;
 }
 
-.whoIAm {
-    position: absolute;
-    left: 40%;
-    right: 38.38%;
-    top: 22%;
-    bottom: 95.31%;
+.nav {
+    text-decoration: none;
+    color: #828282;
+}
 
+.person {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 943.61px;
+    margin-left: 180px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-family: 'Gilroy-Bold';
+    font-size: 47.3392px;
+    line-height: 59px;
+    width: 118.17px;
+    height: 123.51px;
+}
+
+.profession {
+    position: relative;
+}
+
+.whoIAm {
+    margin-top: 31.717px;
+    margin-bottom: 31.717px;
     font-family: 'Gilroy-Medium';
     font-size: 18px;
     line-height: 22px;
+    width: 150px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: -80px;
+}
+
+.mainPhoto {
+    margin-left: 180px;
 }
