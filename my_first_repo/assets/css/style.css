@@ -1,1 +1,56 @@
-111111
+ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-bottom: 1px solid #828282;
+    width: 943.61px;
+    padding-inline-start: 0px;
+    margin-left: 140px;
+}
+
+li {
+    margin-bottom: 30px;
+}
+
+h1 {
+    position: absolute;
+    left: 11%;
+    right: 85.72%;
+    top: 10%;
+    bottom: 94.91%;
+
+    font-family: 'Gilroy-Bold';
+    font-size: 47.3392px;
+    line-height: 59px;
+}
+
+.ru_eng {
+    position: absolute;
+    left: 1090px;
+    top: 22%;
+}
+
+.mainPhoto {
+    position: absolute;
+    width: 943.61px;
+    height: 387px;
+    left: 150px;
+    top: 272.94px;
+}
+
+.rightPosition {
+    margin-left: 19%;
+}
+
+.whoIAm {
+    position: absolute;
+    left: 40%;
+    right: 38.38%;
+    top: 22%;
+    bottom: 95.31%;
+
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+}
