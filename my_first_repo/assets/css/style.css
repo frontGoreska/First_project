@@ -60,3 +60,50 @@ h1 {
 .mainPhoto {
     margin-left: 180px;
 }
+
+h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*margin-left: 550px;*/
+    text-align: center;
+}
+
+.aboutMe {
+    padding-top: 120px;
+}
+
+div {
+    margin-top: 224px;
+}
+
+.About_me {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 40px;
+    /*margin-left: 470px;*/
+
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.personal_information {
+    background-color: #F6F6F6;
+}
+
+.aboutMeText {
+    padding-bottom: 97px;
+}
+
+.skills_text {
+    text-align: center;
+    margin-top: 95px;
+
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
