@@ -107,3 +107,35 @@ div {
     line-height: 22px;
     text-align: center;
 }
+
+.skillsSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 206px;
+    width: 166px;
+}
+
+.skillsStars {
+    height: 27px;
+    width: 168px;
+}
+
+.skillsImg {
+    height: 90px;
+    width: 89px;
+    margin-left: 40px;
+}
+
+.skillsElement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 180px;
+    margin-top: 82px;
+    width: 945px;
+}
+
+.textInSkills {
+    text-align: center;
+}
