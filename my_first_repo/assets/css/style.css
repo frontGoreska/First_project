@@ -11,10 +11,15 @@ ul {
 
 li {
     margin-bottom: 30px;
+    width: 80px;
+
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;
 }
 
 .rightPosition {
-    margin-left: 19%;
+    margin-left: 140px;
 }
 
 .nav {
@@ -55,6 +60,10 @@ h1 {
     top: 50%;
     transform: translate(0, -50%);
     left: -80px;
+
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
 }
 
 .mainPhoto {
@@ -65,8 +74,11 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /*margin-left: 550px;*/
     text-align: center;
+
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px
 }
 
 .aboutMe {
@@ -138,4 +150,82 @@ div {
 
 .textInSkills {
     text-align: center;
+
+    font-family: 'Gilroy-Bold';
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+}
+
+.Portfolio {
+    background-color: #F6F6F6;
+}
+
+.portfolioHeader {
+    margin-bottom: 47px;
+    padding-top: 80px;
+}
+
+.portfolioLink {
+    text-decoration: none;
+    color: black;
+
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+}
+
+.portfolioImg {
+    margin-left: 180px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+
+.lasth3 {
+    padding-bottom: 100px;
+}
+
+.contactsMessage {
+    text-align: center;
+    margin: 0px;
+
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.contactsMessageButton {
+    margin-left: 580px;
+    border-radius: 12px;
+    width: 180px;
+    height: 42px;
+    background-color: black;
+    color: white;
+    margin-top: 29px;
+    margin-bottom: 85px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 342px;
+    margin-left: 500px;
+    margin-bottom: 45px
+}
+
+.contactsLink {
+    text-align: center;
+    margin: 0px;
+
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
 }
