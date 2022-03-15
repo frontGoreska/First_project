@@ -1,42 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="http://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://unpkg.com/spacingjs" defer></script>
 </head>
+
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home" class="nav">Home</a></li>
-                <li class="rightPosition"><a href="#about_me" class="nav">About me</a></li>
-                <li class="rightPosition"><a href="#skills" class="nav">Skills</a></li>
-                <li class="rightPosition"><a href="#portfolio" class="nav">Portfolio</a></li>
-                <li class="rightPosition"><a href="#contacts" class="nav">Contacts</a></li>
-            </ul>
-        </nav>
-        <div class="person">
-            <h1><a name="home">Denis Novik</h1>
-            <span class="profession">
-                <p class="whoIAm">UX|UI designer <br> 24 years old, Minsk</p>
-            </span>
-            <img src="assets/img/RU _ ENG.svg" alt="#" class="ru_eng">
+    <header class="header">
+        <div class="container">
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a class="navigation__link" href="#home" class="nav">Home</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#about_me" class="nav">About me</a>
+                    </li>
+                    <li class="navigation__item"><a class="navigation__link" href="#skills" class="nav">Skills</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#portfolio" class="nav">Portfolio</a>
+                    </li>
+                    <li class="navigation__item"><a class="navigation__link" href="#contacts" class="nav">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="person">
+                <h1 class="main-title">Denis <br> Novik</h1>
+                <p class="main-description">UX|UI designer <br> 24 years old, Minsk</p>
+                <img src="assets/img/RU _ ENG.svg" alt="#" class="ru_eng">
+            </div>
+            <img class="person_image" src="assets/img/Denis.jpg" alt="Denis Novik" class="mainPhoto">
         </div>
-        <img src="assets/img/Denis.jpg" alt="Denis Novik" class="mainPhoto">
     </header>
     <div class="personal_information">
-        <h2 class="aboutMe"><a name="about_me"></a> About me</h2>
+        <h2 id="about_me" class="aboutMe">About me</h2>
         <section class="aboutMeText">
-            <p class="About_me">Hi, I'm Denis – UX/UI designer from Minsk. <br> I'm interested in design and everything connected with it.</p>
+            <p class="About_me">Hi, I'm Denis – UX/UI designer from Minsk. <br> I'm interested in design and everything
+                connected with it.</p>
             <p class="About_me">I'm studying at courses "Web and mobile design <br> interfaces" in IT-Academy.</p>
             <p class="About_me">Ready to implement excellent projects <br> with wonderful people.</p>
         </section>
     </div>
     <div class="skills">
-        <h2><a name="skills">Skills</h2>
+        <h2 id="skills">Skills</h2>
         <p class="skills_text">I work in such programs as</p>
         <div class="skillsElement">
             <section class="skillsSection">
@@ -64,11 +72,17 @@
     <div class="Portfolio">
         <h2 class="portfolioHeader"><a name="portfolio">Portfolio</h2>
         <img src="assets/img/Fashion store.jpg" alt="Fashion store" class="portfolioImg">
-        <a href="#" class="portfolioLink"><h3>Online fashion store - Homepage</h3></a>
+        <a href="#" class="portfolioLink">
+            <h3>Online fashion store - Homepage</h3>
+        </a>
         <img src="assets/img/reebok store.jpg" alt="Reebok store" class="portfolioImg">
-        <a href="#" class="portfolioLink"><h3>Reebok Store - Concept</h3></a>
+        <a href="#" class="portfolioLink">
+            <h3>Reebok Store - Concept</h3>
+        </a>
         <img src="assets/img/Braun landing.jpg" alt="Braun Landing Page" class="portfolioImg">
-        <a href="#" class="portfolioLink"><h3 class="lasth3">Braun Landing Page - Concept</h3></a>
+        <a href="#" class="portfolioLink">
+            <h3 class="lasth3">Braun Landing Page - Concept</h3>
+        </a>
     </div>
     <footer>
         <h2><a name="contacts">Contacts</h2>
@@ -81,8 +95,9 @@
             <a href="#"><img src="assets/img/behance_contacts.svg" alt=""></a>
             <a href="#"><img src="assets/img/Dribble.svg" alt=""></a>
         </section>
-        <p class="contactsLink">Like me on</p> 
+        <p class="contactsLink">Like me on</p>
         <p class="contactsLink">LinkedIn, Instagram, Behance, Dribble</p>
     </footer>
 </body>
+
 </html>
